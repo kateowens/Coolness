@@ -9,6 +9,10 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    printf("Aaron is coolgit \n");
+    int i = 0;
+    while (i < 12) {
+        printf("%d. Aaron is cool\n", i);
+        i++;
+    }
     return 0;
 }
